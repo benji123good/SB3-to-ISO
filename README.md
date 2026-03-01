@@ -2,7 +2,7 @@
 Documentation and setup instructions for SB3 to ISO conversion.
 
 
----[{Idea}](https://scratch.mit.edu/discuss/post/5755789)---[{Plan}](/plan.md)---[{Creation}](/plan.md)---{Changes}---{Finalization}---{Complete}
+---[{Idea}](https://scratch.mit.edu/discuss/post/5755789)---[{Plan}](/google.com)---[{**Creation**}](/google.com)---{Changes}---{Finalization}---{Complete}
 
 Once we reach "Complete" then I will still continue support, and I will try to continue this project
 

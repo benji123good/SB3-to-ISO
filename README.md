@@ -12,7 +12,7 @@ i do not currently have the right knowledge on how to actrually crete a .iso i k
 i was originally gonnma have it based on linux mint then tiny core and then korux (as sugested by nexusSfan) and it made no sence
 
 heres the install script that is broken that would allow you to make the iso if you wanna fix it or somth
-[{script}](/install.sh)
+[script](/install.sh)
 
 i cant use LM since it isnt really editable and i cant figure out how to actrually do the isos.... maybe vhdx? no idea
 

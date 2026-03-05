@@ -9,7 +9,9 @@ echo i will now install the needed ISO
 wget https://pub.linuxmint.io/stable/22.3/linuxmint-22.3-xfce-64bit.iso
 echo DONE!
 echo please enter where you saved the sb3. make sure its unzipped it should look like this Rootdir->Project name-> projectname type the one to this folder
+read sb3
 echo One Moment....
 cd ${sb3}/resources/app
 echo now please enter your username.
 read tap1
+

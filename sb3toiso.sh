@@ -26,8 +26,12 @@ echo ok "begining"
 
 7z x ${sb3}
 
+echo "in the same folder as that zip file you downloaded"
+echo "their should be a folder called project"
+echo "please drag it over to this terminal"
+read project
 
-cd ${hfolde}/Downloads/project
+cd ${project}
 
 read -p "may we download a file needed for this to work? (16.3 gig)"
 
@@ -45,10 +49,11 @@ mkdir -p /mnt/myimage
 
 mount -o loop,rw ${imgpath} /mnt/myimage
 
-mv ${hfolde}/Downloads/project/resources /mnt/myimage/root/Downloads/project/resources
+mv ${project}resources /mnt/myimage/root/Downloads/project/resources
 
 mv ${imgpath} sb3bootdrive.img
 
 echo "DONE! acess your file is in your downloads sb3toiso project and then a file called sb3bootdrive.img is what you can flash"
+echo "if the file is not there please paste everything in this terminal and report an issue on github"
 
 echo "have a good day :D"

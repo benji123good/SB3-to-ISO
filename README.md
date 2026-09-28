@@ -2,10 +2,10 @@
 Documentation and setup instructions for SB3 to ISO conversion.
 Current Status:
 
----[{Idea}](https://scratch.mit.edu/discuss/post/5755789)---[{Plan}](/google.com)---[{Creation}](/google.com)---{Changes}---{**Finalization**}---{Complete}
+---[{Idea}](https://scratch.mit.edu/discuss/post/5755789)---[{Plan}](/google.com)---[{Creation}](/google.com)---{Changes}---{**DEAD**}---{Complete}
 
 
-atlast finally realeased however its in beta due to a bug but once the bug is gone we are good to go!
+THIS PROJECT IS NOW DEAD AND WILL NOT SEE ANY NEW UPDATES DUE TO LACK OF SUPPORT THE BASE IS DONE BUT I CANT UPLOAD IT HERE SINCE ITS TOO BIG SO ONCE THE LINK EXPIRES THATS IT FOR THIS PROJECT
 
 
 PLEASE NOTE INSTALLER.sh IS COMPLETELY BROKEN! HERES HOW TO MAKE A SB3 TO ISO MANUALLY!

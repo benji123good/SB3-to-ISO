@@ -14,15 +14,18 @@ echo "make sure to run this as root"
 echo "make sure 7zip is installed if not this script will not work"
 echo "also make sure that the sb3 is in the same folder as this script"
 echo "and make sure the folder this script is in is inside your download folder"
+echo "due to termnials being stupid some handle"
+echp "drag and drp[ better then others, i can confirm konsole"
+echo "works the best so maybe use that or you will have issues"
 echo "if you dont have 7zip press ctr+C and then" 
-
+echo 
 echo "Archbased: sudo pacman -S 7zip"
 echo "Debian Based, ubuntu based: sudo apt install 7zip"
 
 echo "now drag your file here"
 read sb3
 
-echo ok "begining"
+echo "ok begining"
 
 7z x ${sb3}
 

@@ -15,7 +15,7 @@ echo "make sure 7zip is installed if not this script will not work"
 echo "also make sure that the sb3 is in the same folder as this script"
 echo "and make sure the folder this script is in is inside your download folder"
 echo "due to termnials being stupid some handle"
-echp "drag and drp[ better then others, i can confirm konsole"
+echo "drag and drop better then others, i can confirm konsole"
 echo "works the best so maybe use that or you will have issues"
 echo "if you dont have 7zip press ctr+C and then" 
 echo 
@@ -48,11 +48,46 @@ echo "File Should be downloaded"
 
 echo "starting file transfer (this shouldnt take long_"
 
-mkdir -p /mnt/myimage
 
-mount -o loop,rw ${imgpath} /mnt/myimage
 
-mv ${project}resources /mnt/myimage/root/Downloads/project/resources
+# -------------------THIS PART OF THE CODE IS AI GENERATED -------------
+set -euo pipefail
+
+IMG_FILE=${imgpath}
+MOUNT_DIR="/mnt/arch_root"
+
+mkdir -p "$MOUNT_DIR"
+
+# 1. Attach image and force partition table scan (-P)
+LOOP_DEV=$(sudo losetup -fP --show "$IMG_FILE")
+
+# Auto-cleanup on script error
+cleanup() {
+    sudo umount -R "$MOUNT_DIR" 2>/dev/null || true
+    sudo losetup -d "$LOOP_DEV" 2>/dev/null || true
+}
+trap cleanup ERR
+
+# 2. Mount ext4 root partition (p2)
+ROOT_PART="${LOOP_DEV}p2"
+if [ ! -b "$ROOT_PART" ]; then
+    # Fallback to p1 if unpartitioned or single partition
+    ROOT_PART="${LOOP_DEV}p1"
+fi
+sudo mount -o rw "$ROOT_PART" "$MOUNT_DIR"
+
+# 3. Mount EFI/Boot partition (p1) if p2 exists
+BOOT_PART="${LOOP_DEV}p1"
+if [ -b "${LOOP_DEV}p2" ] && [ -b "$BOOT_PART" ]; then
+    mkdir -p "$MOUNT_DIR/boot"
+    sudo mount -o rw "$BOOT_PART" "$MOUNT_DIR/boot"
+fi
+
+echo "Successfully mounted $IMG_FILE at $MOUNT_DIR"--------
+
+#-------------------THIS PART OF THE CODE IS NOW MADE BY HUMAN--
+
+mv ${project}resources /mnt/arch_root/root/Downloads/project/resources
 
 mv ${imgpath} sb3bootdrive.img
 

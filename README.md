@@ -12,11 +12,16 @@ heres a song also about why i am no longer doing this https://youtu.be/llqWTJGUF
 
 
 
+**How To Download* 
+ever since beta 3 we have changes the way downloads work
+go releases and then download the source code, once you do that extract it and then
+run INSTALLER.sh (see below since its broken rn)
+
 
 PLEASE NOTE INSTALLER.sh IS COMPLETELY BROKEN! HERES HOW TO MAKE A SB3 TO ISO MANUALLY!
 
 1. OPEN THE FILE CALLED ACTIVE LINK AND GO TO THAT LINK TO DOWNLOAD THE CUSTOM MADE .IMG (IT IS 15 GIGS)
-2. MOUNT IT AS RW AND GO TO /root/Downloads/project/resources
+2. MOUNT IT AS RW AND GO TO IN THE NOUNTED DRIVE/root/Downloads/project/resources
 3. GO TO PACKAGE.TURBOWARP.COM
 4. IN ANY OF THE REALEASES DOWNLOAD SB3TOISO.JSON
 5. ADD THE LINK TO YOUR SCRATCH PROJECT OR YOUR SB3 INTO TURBO WARP

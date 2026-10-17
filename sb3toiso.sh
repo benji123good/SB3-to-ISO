@@ -1,7 +1,7 @@
 echo "wheres your home folder? (if you dont know type in /home/insertusername  on insert username replace that with your actrual computer username"
 read hfolde
 cd ${hfolde}/Downloads
-echo "Thanks for using sb3 to iso converter by Benji123good on github and benji123good11 on scratch"
+echo "Thanks for using sb3 to iso converter by Benji123good on github and benji123good11 on scratch!!!"
 echo "in order to use this project in this folder should be a file called sb3toiso.json"
 echo "your gonna need it"
 echo "basically go to https://packager.turbowarp.org/"

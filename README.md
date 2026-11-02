@@ -5,8 +5,7 @@ Current Status:
 ---[{Idea}](https://scratch.mit.edu/discuss/post/5755789)---[{Plan}](/google.com)---[{Creation}](/google.com)---{Changes}---{**DEAD**}---{Complete}
 
 
-THIS PROJECT IS NOW DEAD AND WILL NOT SEE ANY NEW UPDATES DUE TO LACK OF SUPPORT THE BASE IS DONE BUT I CANT UPLOAD IT HERE SINCE ITS TOO BIG SO ONCE THE LINK EXPIRES THATS IT FOR THIS PROJECT
-
+THIS PROJECT IS NOW UNUSABLE AS I WILL NOT BE REUPLOADING THE ISO. HAVE A GOOD DAY!
 
 heres a song also about why i am no longer doing this https://youtu.be/llqWTJGUFeE?si=MpHkDLnYoP_B31wX
 
